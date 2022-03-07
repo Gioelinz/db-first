@@ -1,0 +1,29 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+Automobili usate.
+
+id: [BIGINT] NOT_NULL - UNIQUE - AUTO_INCREMENT - PRIMARY KEY.
+
+brand : [VARCHAR(10)] NOT_NULL.
+
+model : [VARCHAR(30)] NOT_NULL - UNIQUE.
+
+kilometers : [VARCHAR(6)] NOT_NULL.
+
+year : [YEAR] NOT_NULL.
+
+engine : [VARCHAR(20)] NOT_NULL.
+
+seats : [CHAR(1)] NOT_NULL.
+
+gearbox : [VARCHAR(20)] NULL.
+
+emission_class : [VARCHAR(7)] NULL.
+
+typology : [VARCHAR(20)] NULL.
+
+traction : [VARCHAR(15)] NULL.
+
+cv : [VARCHAR(3)] NULL.
+
+kw : [VARCHAR(5)] NULL.
